@@ -10,6 +10,8 @@
     "topbar": "^1.x"
   },
   "devDependencies": {
-    "prettier": "^2.6.1"
+    "prettier": "^2.6.1",
+    "node-sass": "^4.14.1"
+
   }
 }
