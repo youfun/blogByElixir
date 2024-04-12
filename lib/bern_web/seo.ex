@@ -13,8 +13,8 @@ defmodule BernWeb.SEO do
 
   def site_config(_conn) do
     SEO.Site.build(
-      title_suffix: " · Bernheisel",
-      default_title: "David Bernheisel's Blog",
+      title_suffix: " · youfun",
+      default_title: "youfun's Blog",
       description: "A blog about development",
       theme_color: "#663399",
       windows_tile_color: "#663399",
@@ -36,7 +36,7 @@ defimpl SEO.OpenGraph.Build, for: Bern.Blog.Post do
       type_detail:
         SEO.OpenGraph.Article.build(
           published_time: post.published && post.date,
-          author: "David Bernheisel",
+          author: "yoyfun",
           tag: post.tags
         ),
       url: url(conn, ~p"/blog/#{post}"),

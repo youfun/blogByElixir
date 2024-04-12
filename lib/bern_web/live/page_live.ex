@@ -57,7 +57,7 @@ defmodule BernWeb.PageLive do
         <h2>Elixir Stream</h2>
         <div class="space-x-4">
           <.outbound_link to="https://github.com/zestcreative/elixirstream">GitHub</.outbound_link>
-          <.outbound_link to="https://elixirstream.dev">Visit</.outbound_link>
+          <%!-- <.outbound_link to="https://elixirstream.dev">Visit</.outbound_link> --%>
         </div>
         <p>Major functions:</p>
         <ul>

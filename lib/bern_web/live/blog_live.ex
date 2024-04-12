@@ -73,7 +73,7 @@ defmodule BernWeb.BlogLive do
       <h3 class="text-lg font-bold">What do you think of what I said?</h3>
       <div class="mt-4 mb-10">
         Share with me your thoughts. You can
-        <.outbound_link class="link" to="https://twitter.com/bernheisel">tweet me at @bernheisel</.outbound_link>
+        <.outbound_link class="link" to="https://twitter.com/yoyfun">tweet me at @yoyfun</.outbound_link>
         <%= if @post.discussion_url do %>
           or
           <.outbound_link class="link" to={@post.discussion_url}>leave a comment at GitHub</.outbound_link>

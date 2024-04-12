@@ -20,3 +20,34 @@ we built.
 [DateTimeParser]: https://github.com/taxjar/date_time_parser
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fFEqMqBwTE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+
+%{
+  title: "Simple Phoenix Text Inputs with Formulator",
+  tags: ["elixir"],
+  canonical_url: "https://robots.thoughtbot.com/simple-phoenix-text-inputs-with-formulator",
+  description: """
+  Ugh... three lines for a simple text input for a form in Phoenix? How about
+  one with Formulator?
+  """
+}
+---
+
+
+
+%{
+  title: "Testing Random Data in Emails with Bamboo",
+  tags: ["elixir"],
+  canonical_url: "https://robots.thoughtbot.com/testing-emails-with-bamboo",
+  description: """
+  Testing a scenario where an app sends an email is easy, but how do you
+  test something random in an email, like a password reset token? When we
+  test a function that intentionally returns random data, it's a little
+  tougher.
+  """
+}
+
+
+
+```vim
+
+```

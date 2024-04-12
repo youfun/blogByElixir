@@ -26,7 +26,7 @@ defmodule BernWeb.Router do
       live "/", PageLive, :home
       live "/blog", BlogLive, :index, as: :blog
       live "/blog/:id", BlogLive, :show, as: :blog
-      live "/projects", PageLive, :projects
+      # live "/projects", PageLive, :projects
     end
   end
 
